@@ -27,4 +27,51 @@ a:link
     background-image: url(./assets/images/bowling_field.jpg);
     background-size: cover;
     object-fit: cover;
+    color: white;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+}
+span{
+    border: 2px solid rgb(255, 254, 254);
+    padding: 50px ;
+    background-color: black;
+    opacity: 0.5;
+}
+#nos-offres{
+    word-wrap: break-word;
+    text-align: center;
+    padding-bottom: 50px;
+}
+img{
+    height: 50px;
+}
+#cellule{
+    display: flex;
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+
+}
+#quille {
+    background-color: aqua;
+    margin: 20px;
+    text-align: center;
+    width: 33%;
+
+}
+#baseball{
+    background-color: palevioletred;
+    margin: 20px;
+    text-align: center;
+    width: 33%;
+}
+#billard{
+    background-color: yellow;
+    margin: 20px;
+    text-align: center;
+    width: 33%;
+}
+h5{
+    text-decoration: underline;
 }
