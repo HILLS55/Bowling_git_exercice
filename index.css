@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1600px;
 }
 @font-face{
     font-family: Anandablack; 
@@ -23,3 +22,9 @@ a:link
 { 
  text-decoration:none; 
 } 
+#jumbo{
+    height: 400px;
+    background-image: url(./assets/images/bowling_field.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
