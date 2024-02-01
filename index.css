@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1600px;
+}
+@font-face{
+    font-family: Anandablack; 
+    src: url(./assets/fonts/AnandaBlack.ttf);
+}
+
+header{
+    background-color: rgb(173, 173, 247);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    padding-left: 150px;
+    font-family: anandablack;
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
