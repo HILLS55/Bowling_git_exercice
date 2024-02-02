@@ -36,7 +36,7 @@ span{
     border: 2px solid rgb(255, 254, 254);
     padding: 50px ;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 #nos-offres{
     word-wrap: break-word;
@@ -72,6 +72,32 @@ img{
     text-align: center;
     width: 33%;
 }
-h5{
+h3 ,p{
     text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+form{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    width: 50%;
+    
+}
+#com{
+    color: blue;
+    max-width: 50px;
+    margin: auto;
+
+}
+#input-position{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#footer{
+    background-color: rgb(6, 182, 235);
 }
